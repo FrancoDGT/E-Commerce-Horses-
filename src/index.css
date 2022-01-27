@@ -1,13 +1,120 @@
-body {
+
+html{
+  font-size: 62.5%; 
+  box-sizing: border-box;
+}
+
+body{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  height: 100vh;
+  font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("../public/images/blackbackground.jpg");
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#root{
+  height: 100%;
 }
+
+/* Layout */
+
+.grid-container{
+  display: grid;
+  grid-template-areas: 
+      'header'
+      'main'
+      'footer';
+  grid-template-columns: 1fr;
+  grid-template-rows: 5rem 1fr 5rem;
+  height: 100%;
+}
+
+header{
+  grid-area: header;
+  background-color: #020e42dc;
+  position: sticky-top;
+}
+
+main{
+  grid-area: main;
+  padding: 1rem;
+}
+
+footer{
+  grid-area: footer;
+  background-color: #020e4283;
+  color: rgb(223, 223, 223);
+}
+
+/* Common */
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  color: rgb(0, 40, 218);
+}
+
+header a{
+  color: #ffffff;
+  font-size: 1vw;
+  font-weight:bold;
+  padding: 1rem;
+}
+
+a.brand{
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row.center{
+  justify-content: center;
+}
+
+img{
+  border-radius: 0.5rem ;
+}
+
+img.medium{
+  max-width: 24rem;
+  width: 100%;
+  
+}
+
+.card{
+  border: .7rem #ffffff6c solid;
+  background-color: #020e4283;
+  border-radius: 0.5rem;
+  margin: 1rem;
+}
+
+.card-body{
+  padding: 1rem;
+}
+
+.card-body > *{
+  margin-bottom: 0.5rem;
+  font-size: .8vw;
+  color: #ffffff
+}
+
+.price{
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.rating span{
+  color: rgb(255, 255, 0) ;
+}
+
