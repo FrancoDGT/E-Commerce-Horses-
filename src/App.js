@@ -38,7 +38,7 @@ function App() {
               
           </div>
         </main>
-        <footer className="row center"> All rights reserved
+        <footer className="row center"> All Rights Reserved
         </footer>
     </div>
   );
