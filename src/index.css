@@ -118,3 +118,6 @@ img.medium{
   color: rgb(255, 255, 0) ;
 }
 
+.rating span:last-child{
+  color: #ffffff;
+}

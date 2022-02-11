@@ -8,7 +8,7 @@ const data={
             image: "https://pegaxy.io/wp-content/uploads/2021/09/zan.png",
             price: '$200',
             brand: "Pegaxy",
-            rating: 4.5,
+            rating: 3.5,
             numReview: 10,
             description: "High quality product"
         }, 
@@ -19,7 +19,7 @@ const data={
             image: "/images/steelhorse.png",
             price: '$230',
             brand: "Pegaxy",
-            rating: 4.5,
+            rating: 4,
             numReview: 10,
             description: "High quality product"
         },
@@ -30,7 +30,7 @@ const data={
             image: "/images/pinkhorse.png",
             price: '$430',
             brand: "Pegaxy",
-            rating: 4.5,
+            rating: 2,
             numReview: 10,
             description: "High quality product"
         },
@@ -41,7 +41,7 @@ const data={
             image: "/images/siblingshorse.png",
             price: '$250',
             brand: "Pegaxy",
-            rating: 4.5,
+            rating: 5,
             numReview: 10,
             description: "High quality product"
         },
@@ -52,7 +52,7 @@ const data={
             image: "/images/speedsterhorse.png",
             price: '$500',
             brand: "Pegaxy",
-            rating: 4.5,
+            rating: 3,
             numReview: 10,
             description: "High quality product"
         },
@@ -63,7 +63,7 @@ const data={
             image: "/images/intelligenthorse.png",
             price: '$130',
             brand: "Pegaxy",
-            rating: 4.5,
+            rating: 4,
             numReview: 10,
             description: "High quality product"
         },
@@ -74,7 +74,7 @@ const data={
             image: "/images/donkey.png",
             price: '$100',
             brand: "Pegaxy",
-            rating: 4.5,
+            rating: 5,
             numReview: 10,
             description: "High quality product"
         },
@@ -85,7 +85,7 @@ const data={
             image: "/images/blackhorse.png",
             price: '$200',
             brand: "Pegaxy",
-            rating: 4.5,
+            rating: 2.5,
             numReview: 10,
             description: "High quality product"
         },
@@ -96,7 +96,7 @@ const data={
             image: "/images/whitehorse.png",
             price: '$150',
             brand: "Pegaxy",
-            rating: 4.5,
+            rating: 1.5,
             numReview: 10,
             description: "High quality product"
         }
