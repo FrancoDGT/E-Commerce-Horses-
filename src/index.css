@@ -8,7 +8,7 @@ body{
   height: 100vh;
   font-size: 1.6rem;
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url("../public/images/blackbackground.jpg");
+  background-image: url("./background/blackbackground.jpg");
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #ffffff;
@@ -173,4 +173,20 @@ img.large{
 
 .error{
   color: red;
+}
+
+.alert{
+  padding: 1rem;
+  border: 0.1rem solid transparent;
+  border: 0.5rem;
+}
+
+.alert-info{
+  color: #2020a0;
+  background-color: #e0e0ff;
+}
+
+.alert-danger{
+  color: #a02020;
+  background-color: #ffe0e0e0;
 }
